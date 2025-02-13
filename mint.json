@@ -1,17 +1,43 @@
 {
-    "name": "Your Project Name",
-    "navigation": [
+  "name": "Your Project Name",
+  "navigation": [
+    {
+      "group": "api reference",
+      "pages": [
         {
-            "group": "API Reference",
-            "pages": [
-                "api-reference/get-plants",
-                "api-reference/post-plants",
-                "api-reference/delete-plants"
-            ]
+          "group": "pets",
+          "pages": [
+            "api-reference/pets/list-all-pets",
+            "api-reference/pets/create-a-pet",
+            "api-reference/pets/info-for-a-specific-pet"
+          ]
         }
-    ],
-    "colors": {
-        "primary": "#FF0000"
+      ]
     },
-    "favicon": "favicon.svg"
+    {
+      "group": "API Reference",
+      "pages": [
+        "api-reference/get-plants",
+        "api-reference/post-plants",
+        "api-reference/delete-plants"
+      ]
+    }
+  ],
+  "colors": {
+    "primary": "#FF0000"
+  },
+  "favicon": "favicon.svg",
+  "api": {
+    "request": {
+      "example": {
+        "languages": [
+          "bash",
+          "Go",
+          "Java",
+          "Python",
+          "TypeScript"
+        ]
+      }
+    }
+  }
 }
