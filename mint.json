@@ -1,0 +1,17 @@
+{
+    "name": "Your Project Name",
+    "navigation": [
+        {
+            "group": "API Reference",
+            "pages": [
+                "api-reference/get-plants",
+                "api-reference/post-plants",
+                "api-reference/delete-plants"
+            ]
+        }
+    ],
+    "colors": {
+        "primary": "#FF0000"
+    },
+    "favicon": "favicon.svg"
+}
