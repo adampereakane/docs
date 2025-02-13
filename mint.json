@@ -1,17 +1,288 @@
 {
-    "name": "Your Project Name",
-    "navigation": [
+  "name": "Your Project Name",
+  "navigation": [
+    {
+      "group": "api reference",
+      "pages": [
         {
-            "group": "API Reference",
-            "pages": [
-                "api-reference/get-plants",
-                "api-reference/post-plants",
-                "api-reference/delete-plants"
-            ]
+          "group": "Build",
+          "pages": [
+            "api-reference/build/get-builds",
+            "api-reference/build/post-builds",
+            "api-reference/build/post-buildssimple",
+            "api-reference/build/post-builds-artifact",
+            "api-reference/build/get-buildsstatuses",
+            "api-reference/build/get-builds-1",
+            "api-reference/build/delete-builds-",
+            "api-reference/build/post-builds-tag",
+            "api-reference/build/post-builds-untag",
+            "api-reference/build/patch-builds-approve",
+            "api-reference/build/patch-builds-unapprove"
+          ]
+        },
+        {
+          "group": "Api",
+          "pages": [
+            "api-reference/api/get-apis-builds",
+            "api-reference/api/get-apis-buildstags",
+            "api-reference/api/get-apis-sdks",
+            "api-reference/api/get-apis-docs",
+            "api-reference/api/get-apis",
+            "api-reference/api/post-apis",
+            "api-reference/api/get-apissearch",
+            "api-reference/api/get-apis-1",
+            "api-reference/api/patch-apis",
+            "api-reference/api/get-apis-members",
+            "api-reference/api/delete-apisdelete-",
+            "api-reference/api/get-apis-"
+          ]
+        },
+        {
+          "group": "Org",
+          "pages": [
+            "api-reference/org/get-orgs",
+            "api-reference/org/post-orgs",
+            "api-reference/org/get-orgssearch",
+            "api-reference/org/get-orgs-1",
+            "api-reference/org/delete-orgs",
+            "api-reference/org/patch-orgs",
+            "api-reference/org/get-orgs-apis",
+            "api-reference/org/get-orgs-jobs",
+            "api-reference/org/get-orgs-docs",
+            "api-reference/org/get-orgs-builds",
+            "api-reference/org/get-orgs-api-builds",
+            "api-reference/org/get-orgs-artifacts"
+          ]
+        },
+        {
+          "group": "Org Member",
+          "pages": [
+            "api-reference/org-member/get-orgs-members",
+            "api-reference/org-member/post-orgs-members",
+            "api-reference/org-member/delete-orgs-members",
+            "api-reference/org-member/patch-orgs-members",
+            "api-reference/org-member/delete-orgs-leave",
+            "api-reference/org-member/patch-orgs-enable",
+            "api-reference/org-member/patch-orgs-disable"
+          ]
+        },
+        {
+          "group": "Artifact",
+          "pages": [
+            "api-reference/artifact/get-artifacts",
+            "api-reference/artifact/post-artifacts",
+            "api-reference/artifact/get-artifactsstatuses",
+            "api-reference/artifact/get-artifacts-1",
+            "api-reference/artifact/delete-artifacts"
+          ]
+        },
+        {
+          "group": "Sdk",
+          "pages": [
+            "api-reference/sdk/get-sdks",
+            "api-reference/sdk/post-sdks",
+            "api-reference/sdk/get-sdks-1",
+            "api-reference/sdk/delete-sdks"
+          ]
+        },
+        {
+          "group": "Doc",
+          "pages": [
+            "api-reference/doc/get-docsapproved",
+            "api-reference/doc/get-docsapprovedall",
+            "api-reference/doc/get-docs",
+            "api-reference/doc/post-docs",
+            "api-reference/doc/post-docs-approve",
+            "api-reference/doc/post-docs-unapprove",
+            "api-reference/doc/get-docs-1",
+            "api-reference/doc/put-docs",
+            "api-reference/doc/delete-docs",
+            "api-reference/doc/get-docs-getdownloadurl"
+          ]
+        },
+        {
+          "group": "Hub Spot",
+          "pages": [
+            "api-reference/hub-spot/post-hubspotshadow-form"
+          ]
+        },
+        {
+          "group": "OrgSubscriptions",
+          "pages": [
+            "api-reference/orgsubscriptions/get-orgs-subscriptionsactive",
+            "api-reference/orgsubscriptions/post-orgs-subscriptionsactivecancel",
+            "api-reference/orgsubscriptions/get-orgs-subscriptionsactivestate",
+            "api-reference/orgsubscriptions/get-orgs-subscriptions-payment-methodsupdate-link",
+            "api-reference/orgsubscriptions/get-orgs-subscriptionscheckoutlink"
+          ]
+        },
+        {
+          "group": "Subscriptions",
+          "pages": [
+            "api-reference/subscriptions/get-subscriptions"
+          ]
+        },
+        {
+          "group": "Payment Provider",
+          "pages": [
+            "api-reference/payment-provider/post-payment-providerstripewebhook",
+            "api-reference/payment-provider/post-payment-providerstripesubscriptionssync"
+          ]
+        },
+        {
+          "group": "User",
+          "pages": [
+            "api-reference/user/get-userscurrent-user",
+            "api-reference/user/get-users",
+            "api-reference/user/post-users",
+            "api-reference/user/get-users-1",
+            "api-reference/user/delete-users",
+            "api-reference/user/patch-users",
+            "api-reference/user/patch-usersemailssubscriptions",
+            "api-reference/user/get-usersorgs",
+            "api-reference/user/get-usersapis"
+          ]
+        },
+        {
+          "group": "Snippets",
+          "pages": [
+            "api-reference/snippets/get-snippets"
+          ]
+        },
+        {
+          "group": "Workflows",
+          "pages": [
+            "api-reference/workflows/post-workflows"
+          ]
+        },
+        {
+          "group": "Spec Validation",
+          "pages": [
+            "api-reference/spec-validation/post-spec-validations",
+            "api-reference/spec-validation/get-spec-validations"
+          ]
+        },
+        {
+          "group": "Token",
+          "pages": [
+            "api-reference/token/get-authtokens",
+            "api-reference/token/post-authtokens",
+            "api-reference/token/get-authtokens-1",
+            "api-reference/token/delete-authtokens"
+          ]
+        },
+        {
+          "group": "Invitation",
+          "pages": [
+            "api-reference/invitation/post-invitationsorg-invite",
+            "api-reference/invitation/patch-invitations-redeem",
+            "api-reference/invitation/patch-invitations-decline",
+            "api-reference/invitation/get-invitationsreceived",
+            "api-reference/invitation/get-invitationssent",
+            "api-reference/invitation/get-invitationssearch",
+            "api-reference/invitation/get-invitations"
+          ]
+        },
+        {
+          "group": "Auth0",
+          "pages": [
+            "api-reference/auth0/post-auth0reset-password",
+            "api-reference/auth0/post-auth0passwordlessverify-password",
+            "api-reference/auth0/post-auth0passwordlesssetup-password"
+          ]
+        },
+        {
+          "group": "Plan",
+          "pages": [
+            "api-reference/plan/get-plansenabled"
+          ]
+        },
+        {
+          "group": "Invoice",
+          "pages": [
+            "api-reference/invoice/get-orgs-invoices"
+          ]
+        },
+        {
+          "group": "Health Check",
+          "pages": [
+            "api-reference/health-check/get-health-check"
+          ]
+        },
+        {
+          "group": "Tags",
+          "pages": [
+            "api-reference/tags/get-tags",
+            "api-reference/tags/post-tags"
+          ]
+        },
+        {
+          "group": "AI",
+          "pages": [
+            "api-reference/ai/query-documents"
+          ]
+        },
+        {
+          "group": "Feedback",
+          "pages": [
+            "api-reference/feedback/post-feedback"
+          ]
+        },
+        {
+          "group": "User Event",
+          "pages": [
+            "api-reference/user-event/get-user-events",
+            "api-reference/user-event/get-user-eventsexport-to-csv",
+            "api-reference/user-event/post-user-eventstrack-user-publish-pr-event"
+          ]
+        },
+        {
+          "group": "third-party-applications",
+          "pages": [
+            "api-reference/third-party-applications/get-third-party-applications",
+            "api-reference/third-party-applications/post-third-party-applications",
+            "api-reference/third-party-applications/get-third-party-applications-1",
+            "api-reference/third-party-applications/delete-third-party-applications"
+          ]
+        },
+        {
+          "group": "Integration",
+          "pages": [
+            "api-reference/integration/post-integrationsbuilds"
+          ]
+        },
+        {
+          "group": "Spec Fixer",
+          "pages": [
+            "api-reference/spec-fixer/post-spec-fixer-fix"
+          ]
         }
-    ],
-    "colors": {
-        "primary": "#FF0000"
+      ]
     },
-    "favicon": "favicon.svg"
+    {
+      "group": "API Reference",
+      "pages": [
+        "api-reference/get-plants",
+        "api-reference/post-plants",
+        "api-reference/delete-plants"
+      ]
+    }
+  ],
+  "colors": {
+    "primary": "#FF0000"
+  },
+  "favicon": "favicon.svg",
+  "api": {
+    "request": {
+      "example": {
+        "languages": [
+          "bash",
+          "Go",
+          "Java",
+          "Python",
+          "TypeScript"
+        ]
+      }
+    }
+  }
 }
