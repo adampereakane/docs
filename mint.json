@@ -32,10 +32,7 @@
       "example": {
         "languages": [
           "bash",
-          "Go",
-          "Java",
-          "Python",
-          "TypeScript"
+          "Python"
         ]
       }
     }
